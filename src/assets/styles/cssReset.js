@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 export const GlobalResetStyle = createGlobalStyle`
 
 // Modern CSS reset
@@ -6,7 +6,7 @@ export const GlobalResetStyle = createGlobalStyle`
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* Remove default margin */
@@ -36,7 +36,9 @@ body {
   min-height: 100dvh;
   max-height: 100dvh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  min-width: 100vw;
+  overflow-x: hidden;
+  /* line-height: 1.5; */
 }
 
 /* A elements that don't have a class get default styles */

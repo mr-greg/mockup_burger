@@ -1,16 +1,30 @@
 import React from "react";
 import styled from "styled-components";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Burger from "./components/Burgers/Burger";
+import Tacos from "./components/Tacos/Tacos";
+import Kebab from "./components/Kebab/Kebab";
+import Footer from "./components/Footer/Footer";
 
 const StyledHome = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: #f0f0f0;
+  .header-hero {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
 `;
 
 function Home() {
   return (
     <StyledHome>
-      <h1>Hello world</h1>
+      <div className="header-hero">
+        <Header />
+        <Hero />
+        <Burger />
+        <Tacos />
+        <Kebab />
+        <Footer />
+      </div>
     </StyledHome>
   );
 }

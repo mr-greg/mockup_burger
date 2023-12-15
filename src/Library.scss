@@ -1,10 +1,27 @@
 :root {
+  --yellowColor: #fcba1c;
+  --redColor: #ff4347;
+  --blueColor: #6cb7e1;
+  --blackColor: black;
   --whiteColor: white;
 }
 
 body {
-  color: black;
   font-family: "Roboto";
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "AlterwaveExtraBold";
+  }
+  p {
+    font-family: "Quicksand";
+    font-size: 16px;
+    opacity: 80%;
+  }
+  strong {
+    font-family: "AlterwaveThin";
+  }
 
   .button {
     transition: all 0.2s ease-in-out;
