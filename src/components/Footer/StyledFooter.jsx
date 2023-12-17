@@ -47,6 +47,7 @@ export const StyledFooter = styled.footer`
       padding: 3% 5%;
       background-color: var(--redColor);
       border-radius: 18% 18% 0 0;
+      cursor: pointer;
       img {
         max-width: 100%;
         margin: 0 auto;

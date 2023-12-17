@@ -22,6 +22,10 @@ body {
   strong {
     font-family: "AlterwaveThin";
   }
+  button {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
 
   .button {
     transition: all 0.2s ease-in-out;

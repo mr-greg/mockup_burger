@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledFooter } from "./StyledFooter";
 import logo from "../../assets/img/logo.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
           <a href="#">Contact</a>
         </div>
         <div className="logo-container">
-          <img src={logo} alt="" className="footer-logo" />
+          <img src={logo} alt="" className="footer-logo" href="#" />
         </div>
       </div>
     </StyledFooter>

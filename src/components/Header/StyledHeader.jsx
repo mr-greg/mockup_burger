@@ -15,6 +15,7 @@ export const StyledHeader = styled.header`
       padding: 3% 5%;
       background-color: var(--redColor);
       border-radius: 0 0 18% 18%;
+      cursor: pointer;
       img {
         max-width: 100%;
         margin: 0 auto;
