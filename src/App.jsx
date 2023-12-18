@@ -33,7 +33,7 @@ function App() {
     <>
       <GlobalFonts />
       <GlobalResetStyle />
-      <ReactLenis ref={lenisRef} autoRaf={false} root>
+      <ReactLenis ref={lenisRef} root smoothWheel infinite>
         <Routes>
           <Route path="/" exact element={<Home />} />
         </Routes>
